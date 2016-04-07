@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Michael Goen's Portfolio</title>
+    <link rel='stylesheet' href='main.css'>
+    <link href='https://fonts.googleapis.com/css?family=Kadwa:700' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+  </head>
+
+  <body id='home'>
+
+    <nav id='mynav' class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#home">Michael Goen</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#project-border">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id='myjumbo' class='jumbotron text-center'>
+      <div id='name' class="container">
+        <h1>Michael Goen</h1>
+        <p>Web Developer</p>
+      </div>
+    </div>
+
+   <div id='about' class="container" >
+      <div class='col-lg-12'>
+        <h2 class='subheading'>About Me</h2>
+        <p>
+        Hello! I'm an aspiring full-stack web developer from California with a background in solving
+        technical problems. Currently, I'm working my way through the curriculum
+        at FreeCodeCamp.
+        </p>
+        <h2 class='subheading'>Skills</h2>
+        <p>Javascript, HTML/CSS3, Python, Node.js</p>
+        <p>Computer/Mobile Device Repair and Troubleshooting</p>
+      </div>
+    </div>
+
+   <hr id='project-border' class='divider'>
+
+   <div id='projects' class="container text-center">
+     <h2 class='subheading'>Project Samples</h2>
+     <div class="row">
+       <div class="col-lg-4 col-md-6 col-sm-6">
+         <img class="img-square" src="http://res.cloudinary.com/dc7r1ivcl/image/upload/v1460054763/simon250_cbi0nw.jpg">
+         <h3>Simon</h3>
+         <p>Play the classic game in your web browser. </p>
+         <p><a class="btn btn-default" href="http://codepen.io/mikegoen/full/ZWXPPb/" role="button">View in CodePen &raquo;</a></p>
+       </div>
+       <div class="col-lg-4 col-md-6 col-sm-6">
+         <img class="img-square" src="http://res.cloudinary.com/dc7r1ivcl/image/upload/v1457643621/ext250_omqkfy.png">
+         <h3>Google Chrome Extension</h3>
+         <p>Refreshes pages automatically according to what time you set.</p>
+         <p><a class="btn btn-default" href="https://chrome.google.com/webstore/detail/stayfresh-page-refresher/fjcgdkhnikhjmijgldhfbjjnnjdfjljd?utm_source=chrome-app-launcher-info-dialog" role="button">View in Chrome Store &raquo;</a></p>
+       </div>
+       <div class="col-lg-4 col-md-6 col-sm-6">
+         <img class="img-square" src="http://res.cloudinary.com/dc7r1ivcl/image/upload/v1459460855/weather250_zdluif.png" >
+         <h3>Weather Forecast</h3>
+         <p>Uses the OpenWeatherMap API to provide today's weather including a forecast.<br</p>
+         <p><a class="btn btn-default" href="http://codepen.io/mikegoen/full/obZeOR/" role="button">View in CodePen &raquo;</a></p>
+       </div>
+       <div class="col-lg-4 col-md-6 col-sm-6">
+         <img class="img-square" src="http://res.cloudinary.com/dc7r1ivcl/image/upload/v1459459889/pomo250_wpzkyi.png">
+         <h3>Pomodoro Timer</h3>
+         <p>Productivity tool with configurable work/break cycles and a progress bar.</p>
+         <p><a class="btn btn-default" href="#" role="button">View in CodePen &raquo;</a></p>
+       </div><!-- /.col-lg-4 -->
+       <div class="col-lg-4 col-md-6 col-sm-6">
+         <img class="img-square" src="http://res.cloudinary.com/dc7r1ivcl/image/upload/v1457644318/calc250_hnbq0h.png" >
+         <h3>Calculator</h3>
+         <p>A simple calculator with a clean design. Built using HTML/CSS and Javascript<br</p>
+         <p><a class="btn btn-default" href="http://codepen.io/mikegoen/full/obZeOR/" role="button">View in CodePen &raquo;</a></p>
+       </div><!-- /.col-lg-4 -->
+       <div class="col-lg-4 col-md-6 col-sm-6">
+         <img class="img-square" src="http://placehold.it/250x200">
+         <h3>Random Quote Machine</h3>
+         <p>Coming Soon!</p>
+         <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div><!-- /.col-lg-4 -->
+
+     </div><!-- /.row -->
+   </div>
+
+   <hr class='divider'>
+
+    <div class="container" id="contact">
+    <h3>Send Me A Message</h3>
+    <form class="form-horizontal" action="https://formspree.io/mikejg4@gmail.com" method="POST" role="form">
+      <div class="form-group">
+       <label for="name" class="col-sm-2 col-md-2 col-md-offset-2 control-label">Your Name</label>
+       <div class="col-sm-10 col-md-4">
+         <input name="name" type="text" class="form-control" id="fname" placeholder="Name">
+       </div>
+      </div>
+      <div class="form-group">
+       <label for="email" class="col-sm-2 col-md-2 col-md-offset-2 control-label">Your Email</label>
+       <div class="col-sm-10 col-md-4 ">
+         <input name="_replyto" type="email" class="form-control" id="email" placeholder="Email">
+       </div>
+      </div>
+      <div class="form-group">
+       <label for="message" class="col-sm-2 col-md-2 col-md-offset-2 control-label">Message</label>
+       <div class="col-sm-10 col-md-4 ">
+         <textarea name="message" class="form-control" rows="5" placeholder="Message"></textarea>
+       </div>
+      </div>
+      <div class="form-group">
+        <button type="submit" value="send" class="btn btn-default">Send</button>
+      </div>
+      <input type="hidden" name="_subject" value="Message from my website">
+     </form>
+      <div class='row'>
+          <h3>Or Check out my profiles below</h3>
+          <div class="btn-group" role="group" aria-label="...">
+            <a href='https://github.com/mikegoen' class="btn btn-default"><h3><i class="fa fa-github"></i>Github </h3></a>
+            <a href='http://www.freecodecamp.com/mikegoen' type="button" class="btn btn-default"><h3>(<i class='fa fa-fire'></i>)freeCodeCamp </h3></a>
+            <a href='' type="button" class="btn btn-default"><h3>Linked <i class="fa fa-linkedin"></i></h3></a>
+          </div>
+      </div>
+      <hr class='divider'>
+    <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p class="pull-left">Designed and Coded By Michael Goen</p>
+      </footer>
+  </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </body>
+</html>
