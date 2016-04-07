@@ -101,7 +101,7 @@
 
     <div class="container" id="contact">
     <h3>Send Me A Message</h3>
-    <form class="form-horizontal" action="https://formspree.io/mikejg4@gmail.com" method="POST" role="form">
+    <form id="contact" class="form-horizontal" action="" method="POST" role="form">
       <div class="form-group">
        <label for="name" class="col-sm-2 col-md-2 col-md-offset-2 control-label">Your Name</label>
        <div class="col-sm-10 col-md-4">
@@ -124,6 +124,7 @@
         <button type="submit" value="send" class="btn btn-default">Send</button>
       </div>
       <input type="hidden" name="_subject" value="Message from my website">
+      <input type="text" name="_gotcha" style="display:none" />
      </form>
       <div class='row'>
           <h3>Or Check out my profiles below</h3>
@@ -139,7 +140,11 @@
         <p class="pull-left">Designed and Coded By Michael Goen</p>
       </footer>
   </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script>
+    var contactform =  document.getElementById('contact');
+    contactform.setAttribute('action', '//formspree.io/' + 'mik'+'ejg4' + '@' + 'gmail' + '.' + 'com');
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   </body>
 </html>
